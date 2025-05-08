@@ -16,6 +16,21 @@
 html{
     scroll-behavior: smooth;
 }
+.progresse{
+    background:linear-gradient(to right , var(--light_brown) , var(--black));
+    height: 3px;
+    width: 10px;
+    animation: haytam  linear;
+    animation-timeline: scroll();
+}
+@keyframes haytam {
+    0%{
+        width: 10px;
+    }
+    100%{
+        width: 100%;
+    }
+}
 /* Start Utility Classes */
 .container{
     max-width: 1000px;
