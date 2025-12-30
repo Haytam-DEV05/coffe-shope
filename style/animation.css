@@ -1,0 +1,18 @@
+/* =================== */
+/* ANIMATION */
+/* =================== */
+
+.fade-in{
+    animation: fade-In 1.2s ease-in-out forwards;
+}
+
+@keyframes fade-In {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translate(0px);
+    }
+}
